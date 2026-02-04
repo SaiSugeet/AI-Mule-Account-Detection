@@ -1,0 +1,5 @@
+{
+  "allow_thresh": 0.3,
+  "otp_thresh": 0.65,
+  "chosen_thr": 0.0
+}
