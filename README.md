@@ -19,11 +19,11 @@ Prevents fraudulent transfers before completion
 
 Provides explainable reasons for every decision
 
-Core Concepts Used
+🧠 Core Concepts Used
 
 This system combines multiple intelligent techniques:
 
-Behavioral Analysis
+🔹 Behavioral Analysis
 
 The model studies user activity patterns such as:
 
@@ -37,7 +37,7 @@ Interactions with many unrelated accounts
 
 These signals are strong indicators of mule behavior.
 
-Network-Based Detection
+🔹 Network-Based Detection
 
 Fraud often happens in coordinated groups, not isolated accounts.
 This project uses network relationships to:
@@ -48,7 +48,7 @@ Detect accounts acting as bridges in fund movement
 
 Expose mule chains and layered transfers
 
-Risk-Based Pre-Authorization
+🔹 Risk-Based Pre-Authorization
 
 Before a transaction is completed, the system:
 
@@ -66,7 +66,7 @@ Transaction hold
 
 Alert generation
 
-Explainable AI (XAI)
+🔹 Explainable AI (XAI)
 
 Every flagged transaction includes clear, human-readable reasons such as:
 
@@ -75,19 +75,7 @@ Every flagged transaction includes clear, human-readable reasons such as:
 “Connected to high-risk account cluster”
 
 This makes the system usable for fraud investigators and compliance teams.
-Project Structure
-├── app.py                  # Main application logic
-├── model/                  # Trained ML models & policies
-├── data/                   # Engineered feature datasets
-├── raw_data/               # Simulated transaction data
-├── graphs/                 # Network graph examples
-├── lib/                    # Visualization libraries
-├── train_model.ipynb       # Model training pipeline
-├── feature_engineering.ipynb
-├── simulate_data.ipynb
-└── Scoring.py              # Risk scoring logic
-
-How the System Works (Flow)
+⚙️ How the System Works (Flow)
 
 Transaction occurs
 
@@ -107,7 +95,7 @@ Verify
 
 Block / Hold
 
-Technologies & Skills Demonstrated
+📊 Technologies & Skills Demonstrated
 
 Machine Learning for fraud detection
 
@@ -121,7 +109,7 @@ Explainable AI concepts
 
 Python-based model deployment logic
 
-Dataset
+🧪 Dataset
 
 This project uses simulated transaction and account data to model real-world fraud patterns safely. The dataset includes:
 
@@ -133,7 +121,7 @@ Simulated mule behavior
 
 Normal user patterns
 
-Real-World Impact
+🚀 Real-World Impact
 
 This system demonstrates how AI can be used to:
 
@@ -147,7 +135,7 @@ Assist fraud investigation teams
 
 It showcases a practical fintech security solution rather than just a theoretical ML model.
 
-Author
+👤 Author
 
 Sai Sugeet
 Engineering Student | AI & Security Enthusiast
