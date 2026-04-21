@@ -161,7 +161,7 @@ source venv/bin/activate
 Install dependencies:
 
 ```bash
-pip install streamlit pandas numpy scikit-learn joblib networkx pyvis notebook
+pip install -r requirements.txt
 ```
 
 ### Run the Project
@@ -203,7 +203,7 @@ Recommended deployment options:
 For Streamlit Community Cloud:
 
 1. Push the project to GitHub.
-2. Add a `requirements.txt` file with the required dependencies.
+2. Confirm `requirements.txt` is present in the repository root.
 3. Create a new Streamlit app from the GitHub repository.
 4. Set the entry point as:
 
@@ -224,6 +224,7 @@ AI-Mule-Account-Detection/
 |-- diagnostic_model.py            # Model inspection utility
 |-- diagnose_model_sample.py       # Feature importance and sample diagnostics
 |-- inspect_model.py               # Model artifact inspection script
+|-- requirements.txt               # Runtime dependencies for local and cloud deployment
 |-- data/
 |   `-- features_accounts.csv      # Engineered account-level feature table
 |-- raw_data/
@@ -253,7 +254,7 @@ AI-Mule-Account-Detection/
 ## Future Improvements
 
 - Fix the feature-label join so mule labels are preserved in the engineered feature table.
-- Add a reproducible `requirements.txt` file.
+- Add automated tests for scoring and feature generation.
 - Add model evaluation reports with precision, recall, F1-score, ROC-AUC, PR-AUC, and confusion matrix.
 - Add batch transaction scoring for uploaded CSV files.
 - Add SHAP-based model explanations for more interpretable risk reasons.
